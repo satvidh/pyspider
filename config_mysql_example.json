@@ -1,0 +1,13 @@
+{
+  "taskdb": "mysql+taskdb://user:password@mysql:3306/mysqldb",
+  "projectdb": "mysql+projectdb://user:password@mysql:3306/mysqldb",
+  "resultdb": "mysql+resultdb://user:password@mysql:3306/mysqldb",
+  "message_queue": "amqp://rabbitmq:5672/%2F",
+  "webui": {
+    "username": "username",
+    "password": "password",
+    "need-auth": true,
+    "scheduler-rpc": "http://scheduler:23333",
+    "fetcher-rpc": "http://fetcher:24444"
+  }
+}
